@@ -19,6 +19,8 @@ class Globo
 
   void dibujate()
   {
+      //cambio rama marta
+      strokeWeight(6);
       fill(c);
       ellipse(x,y,80,100);
       triangle(x,y+50,x-10,y+60,x+10,y+60);
